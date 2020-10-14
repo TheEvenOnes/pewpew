@@ -36,3 +36,8 @@ shape = SubResource( 3 )
 transform = Transform( 1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, -5.96046e-08, 0 )
 mesh = SubResource( 4 )
 material/0 = null
+
+[node name="DirectionalLight" type="DirectionalLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.866025, 0.5, 0, -0.5, 0.866025, 0, 4, 0 )
+light_color = Color( 0.427451, 0.529412, 0.592157, 1 )
+shadow_enabled = true
