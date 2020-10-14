@@ -1,0 +1,7 @@
+Godot Engine v3.2.3.stable.official - https://godotengine.org
+OpenGL ES 3.0 Renderer: GeForce RTX 2070 with Max-Q Design/PCIe/SSE2
+ 
+Project is missing: /home/domagoj/Dev/Godot/stuck-in-a-loop/meh/project.godot
+**ERROR**: Condition "default_certs != __null" is true.
+   At: modules/mbedtls/crypto_mbedtls.cpp:201:load_default_certificates() - Condition "default_certs != __null" is true.
+Editing project: /home/domagoj/Dev/Godot/pewpew/pewpew (::home::domagoj::Dev::Godot::pewpew::pewpew)
