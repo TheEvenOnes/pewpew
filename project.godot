@@ -8,16 +8,26 @@
 
 config_version=4
 
-_global_script_classes=[  ]
+_global_script_classes=[ {
+"base": "Object",
+"class": "ClientData",
+"language": "GDScript",
+"path": "res://state/client_data.gd"
+} ]
 _global_script_class_icons={
-
+"ClientData": ""
 }
 
 [application]
 
 config/name="PewPew"
-run/main_scene="res://scenes/DemoScene.tscn"
+run/main_scene="res://scenes/Main.tscn"
 config/icon="res://icon.png"
+
+[autoload]
+
+ServerState="*res://state/server_state.gd"
+ClientState="*res://state/client_state.gd"
 
 [input]
 
